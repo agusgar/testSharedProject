@@ -1,5 +1,5 @@
 {
-  "name": "testsharedproject",
+  "name": "@agusgar/testsharedproject",
   "version": "1.0.0",
   "description": "this is a test project to test integration issues",
   "main": "dist/index.bundle.js",
@@ -18,7 +18,7 @@
     "url": "https://github.com/agusgar/testSharedProject/issues"
   },
   "files": [
-    "dist",
+    "dist/index.bundle.js",
     "package.json",
     "src/**/*.js"
   ],
@@ -31,6 +31,7 @@
     "brunch": "^3.0.0"
   },
   "peerDependencies": {
-    "react": "^16.12.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
