@@ -2,7 +2,7 @@
   "name": "testsharedproject",
   "version": "1.0.0",
   "description": "this is a test project to test integration issues",
-  "main": "index.js",
+  "main": "dist/index.bundle.js",
   "scripts": {
     "test": "npm test",
     "start": "brunch build",
@@ -17,6 +17,11 @@
   "bugs": {
     "url": "https://github.com/agusgar/testSharedProject/issues"
   },
+  "files": [
+    "dist",
+    "package.json",
+    "src/**/*.js"
+  ],
   "homepage": "https://github.com/agusgar/testSharedProject#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.8.4",
@@ -25,7 +30,7 @@
     "babel-preset-env": "^1.7.0",
     "brunch": "^3.0.0"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.12.0"
   }
 }
