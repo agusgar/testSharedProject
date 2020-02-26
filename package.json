@@ -1,5 +1,5 @@
 {
-  "name": "@agusgar/testsharedproject",
+  "name": "testsharedproject",
   "version": "1.0.0",
   "description": "this is a test project to test integration issues",
   "main": "dist/index.bundle.js",
@@ -32,7 +32,7 @@
     "babel-preset-env": "^1.7.0",
     "brunch": "^3.0.0"
   },
-  "peerDependencies": {
+  "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
