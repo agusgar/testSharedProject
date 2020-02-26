@@ -1,0 +1,31 @@
+{
+  "name": "testsharedproject",
+  "version": "1.0.0",
+  "description": "this is a test project to test integration issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "brunch build",
+    "build": "brunch build --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusgar/testSharedProject.git"
+  },
+  "author": "Agustin Garbarino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agusgar/testSharedProject/issues"
+  },
+  "homepage": "https://github.com/agusgar/testSharedProject#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-brunch": "^7.0.1",
+    "babel-preset-env": "^1.7.0",
+    "brunch": "^3.0.0"
+  },
+  "dependencies": {
+    "react": "^16.12.0"
+  }
+}
