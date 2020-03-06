@@ -24,6 +24,7 @@
     "@babel/runtime": "^7.8.4",
     "babel-brunch": "^7.0.1",
     "babel-cli": "^6.26.0",
+    "babel-loader": "8.0.6",
     "babel-preset-env": "^1.7.0",
     "brunch": "^3.0.0",
     "prop-types": "^15.6.0",
