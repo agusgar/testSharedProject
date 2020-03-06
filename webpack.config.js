@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/index.js',
+  entry: './src/table.js',
   output: {
     path: path.resolve('lib'),
     filename: 'index.bundle.js',
