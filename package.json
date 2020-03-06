@@ -2,9 +2,15 @@
   "name": "testsharedproject",
   "version": "1.0.0",
   "description": "this is a test project to test integration issues",
-  "main": "lib/index.bundle.js",
+  "main": "src/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "src/",
+    "dist/"
+  ],
   "scripts": {
-    "build": "webpack"
+    "build": "babel src --out-dir lib --source-maps inline --copy-files",
+    "start": "babel src --out-dir lib --source-maps inline --copy-files"
   },
   "repository": {
     "type": "git",
@@ -22,21 +28,21 @@
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
     "@babel/runtime": "^7.8.4",
-    "babel-brunch": "^7.0.1",
-    "babel-cli": "^6.26.0",
     "babel-loader": "8.0.6",
-    "babel-preset-env": "^1.7.0",
-    "brunch": "^3.0.0",
     "prop-types": "^15.6.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "webpack": "^4.5.0",
-    "webpack-cli": "^3.2.1",
     "path": "^0.12.7"
+  },
+  "dependencies": {
+    "react-switch": "^5.0.1",
+    "lodash": "^4.17.15"
   },
   "peerDependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "prop-types": "^15.7.0"
+    "prop-types": "^15.7.0",
+    "react-switch": "^5.0.1",
+    "lodash": "^4.17.15"
   }
 }
